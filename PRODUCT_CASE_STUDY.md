@@ -1,7 +1,6 @@
 # Product Case Study: From Sentiment Score to Roadmap Signal
 
-*Written from a product management lens, on top of an open-source sentiment
-analysis baseline ([original project](https://github.com/iamprashanth238/customer-review-analysis)).*
+*Written from a product management lens, on top of an open-source sentiment analysis baseline.*
 
 ## 1. The problem
 
@@ -19,9 +18,9 @@ A product manager (or a small team without a dedicated data/insights
 function) who has a pile of raw customer reviews and 15 minutes to
 decide what to raise in the next planning meeting.
 
-## 3. What was added on top of the base repo
+## 3. What was added on top of the baseline
 
-The original project (linked above) trains a Naive Bayes classifier on
+The base classidier trains a Naive Bayes classifier on
 a restaurant-reviews dataset and predicts positive/negative for one
 review at a time. I kept that baseline and added:
 
